@@ -1,0 +1,144 @@
+@charset "UTF-8";
+* {
+  font-family: "Ubuntu", sans-serif, "微軟正黑體";
+  vertical-align: top;
+  position: relative;
+  background-color: #E8E8E8;
+}
+
+body {
+  padding: 40px;
+}
+
+.container {
+  font-size: 0px;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #FAFAFA;
+}
+
+.cover_hao1 {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.block {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+}
+.block p {
+  background-color: #FAFAFA;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.block .hao {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+.block .date, .block .tool {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block .date {
+  margin-top: -10px;
+}
+.block .time, .block .draw {
+  font-size: 18px;
+  font-weight: 300;
+}
+.block .time {
+  margin-top: -15px;
+}
+.block .draw {
+  margin-top: -15px;
+}
+
+.cover_hao2, .cover_hao3, .cover_hao4 {
+  width: 85%;
+  border: solid 1px #7FC7BD;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+
+.icon {
+  width: 45px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #FAFAFA;
+}
+
+.icon:hover {
+  opacity: 0.6
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    font-size: 0px;
+    max-width: 1024px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .block {
+    width: 100%;
+    height: 200px;
+  }
+  .block p {
+    background-color: #FAFAFA;
+  }
+  .block .hao {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+  }
+  .block .date, .block .tool {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .block .date {
+    margin-top: -20px;
+  }
+  .block .tool {
+    margin-top: -10px;
+  }
+  .block .time, .block .draw {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .cover_hao2, .cover_hao3, .cover_hao4 {
+    width: 100%;
+    border: solid 1px #7FC7BD;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+  }
+
+  .icon {
+    width: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+  }
+}
